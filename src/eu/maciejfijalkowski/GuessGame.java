@@ -32,7 +32,7 @@ public class GuessGame {
     }
 
     public void play(){
-        for (int i = 0; i<=rounds; i++){
+        for (int i = 0; i<rounds; i++){
             randomNumber=randomNumber();
 
             System.out.println(randomNumber);
@@ -46,7 +46,7 @@ public class GuessGame {
             }
 
         }
-        System.out.println("Twój wynik to: " + getScore());
+        System.out.println("Twój wynik to: " + getScore() + " odgadniętych liczb !!!");
 
     }
     public int getScore(){
